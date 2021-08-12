@@ -26,10 +26,9 @@ batch_size = 32
 epochs = 40
 
 # 模型路径
-config_path = '/root/kg/bert/chinese_t5_pegasus_base/config.json'
-checkpoint_path = '/root/kg/bert/chinese_t5_pegasus_base/model.ckpt'
-dict_path = '/root/kg/bert/chinese_t5_pegasus_base/vocab.txt'
-
+config_path = 'E:/预训练模型/chinese_t5_pegasus_base/config.json'
+checkpoint_path = 'E:/预训练模型/chinese_t5_pegasus_base/model.ckpt'
+dict_path = 'E:/预训练模型/chinese_t5_pegasus_base/vocab.txt'
 
 def load_data(filename):
     """加载数据
